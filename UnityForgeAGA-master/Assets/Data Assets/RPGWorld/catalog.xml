@@ -1,0 +1,26 @@
+<Catalog
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <Item>
+      <Name>Health Potion</Name>
+      <Description>This vial of gently-glowing, blue liquid is capable of reviving anyone.</Description>
+    </Item>
+    <Item>
+      <Name>Sword</Name>
+      <Description>A trusty sword, an adventurer's loyal companion.</Description>
+    </Item>
+    <Item>
+      <Name>Gun</Name>
+      <Description>A finely crafted firearm. It shoots bullets and such.</Description>
+    </Item>
+	<Item>
+      <Name>Jamshed</Name>
+      <Description>Jamshed combines the best of jamming and shedding, whatever that means.</Description>
+    </Item>
+	<Item>
+      <Name>Random Item</Name>
+      <Description>A random item from twitter.</Description>
+    </Item>
+  </Items>
+</Catalog>

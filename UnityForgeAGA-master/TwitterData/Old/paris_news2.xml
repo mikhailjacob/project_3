@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TwitterData>
+    <Characters>
+        <Character>
+            <ID>1</ID>
+            <Name>Paris News</Name>
+        </Character>
+        <Character>
+            <ID>2</ID>
+            <Name>The Denver Post</Name>
+            <Likes>
+                <int>1</int>
+            </Likes>
+        </Character>
+        <Character>
+            <ID>3</ID>
+            <Name>Michael Beard</Name>
+            <Likes>
+                <int>2</int>
+            </Likes>
+        </Character>
+        <Character>
+            <ID>4</ID>
+            <Name>Dr. Guido Kirner</Name>
+            <Likes>
+                <int>3</int>
+            </Likes>
+        </Character>
+        <Character>
+            <ID>5</ID>
+            <Name>Elsa Alvarez Forges</Name>
+        </Character>
+        <Character>
+            <ID>6</ID>
+            <Name>Zequi Castellano</Name>
+        </Character>
+        <Character>
+            <ID>7</ID>
+            <Name>eliseucliment</Name>
+        </Character>
+        <Character>
+            <ID>8</ID>
+            <Name>Gemma Lluch</Name>
+        </Character>
+    </Characters>
+    <Relationships>
+        <Relationship>
+            <person1>1</person1>
+            <person2>2</person2>
+        </Relationship>
+        <Relationship>
+            <person1>1</person1>
+            <person2>3</person2>
+        </Relationship>
+        <Relationship>
+            <person1>1</person1>
+            <person2>4</person2>
+        </Relationship>
+        <Relationship>
+            <person1>5</person1>
+            <person2>6</person2>
+        </Relationship>
+        <Relationship>
+            <person1>5</person1>
+            <person2>7</person2>
+        </Relationship>
+        <Relationship>
+            <person1>5</person1>
+            <person2>8</person2>
+        </Relationship>
+    </Relationships>
+    <PropObjects/>
+    <Villain>5</Villain>
+    <Sidekick>1</Sidekick>
+</TwitterData>

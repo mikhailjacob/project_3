@@ -1,0 +1,276 @@
+<Episode>
+  <ID>111</ID>
+  <Events>
+	<StoryEvent>
+      <ID>0</ID>
+      <Name>talk</Name>
+	  <IsEnding>false</IsEnding>
+	  <Mood> NA</Mood>
+	  <NodeType> OR </NodeType>
+      <Description>Talk to the sidekick.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent>
+	
+	<StoryEvent>
+      <ID>1</ID>
+      <Name>loot</Name>
+	  <IsEnding>false</IsEnding>
+	  <Mood> NA</Mood>
+	  <NodeType> OR </NodeType>
+      <Description>Take {item} from {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent>	
+    <StoryEvent>
+      <ID>2</ID>
+      <Name>kill-by-item</Name>
+	  <IsEnding>false</IsEnding>
+	  <Mood> NA</Mood>
+	  <NodeType> OR </NodeType>
+      <Description>Kill {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent>
+	<StoryEvent>
+      <ID>3</ID>
+	 <Name>kill-by-item</Name>
+	  <IsEnding>false</IsEnding>
+	  <Mood> NA</Mood>
+	  <NodeType> OR </NodeType>
+      <Description>Kill {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent> 
+	<StoryEvent>
+      <ID>4</ID>
+      <Name>kill-by-item</Name>
+		 <IsEnding>false</IsEnding>
+		  <Mood> NA</Mood>
+		  <NodeType> OR </NodeType>
+      <Description>Kill {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent>	
+    <StoryEvent>
+      <ID>5</ID>
+      <Name>loot</Name>
+	 <IsEnding>false</IsEnding>
+	  <Mood> NA</Mood>
+	  <NodeType> OR </NodeType>	
+      <Description>Loot {item} from {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent>
+	<StoryEvent>
+      <ID>6</ID>
+  	<Name>loot</Name>
+	 <IsEnding>false</IsEnding>
+	  <Mood> NA</Mood>
+	  <NodeType> OR </NodeType>	
+      <Description>Loot {item} from {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent> 
+	<StoryEvent>
+      <ID>7</ID>
+      <Name>loot</Name>
+	 <IsEnding>false</IsEnding>
+	  <Mood> NA</Mood>
+	  <NodeType> OR </NodeType>	
+      <Description>Loot {item} from {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent>	
+    <StoryEvent>
+      <ID>8</ID>
+      <Name>talk</Name>
+	 <IsEnding>true</IsEnding>
+	  <Mood> RELAXED</Mood>
+	  <NodeType>OR</NodeType>
+      <Description>Discuss reasonably with {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent>
+	<StoryEvent>
+      <ID>9</ID>
+      <Name>kill-by-item</Name>
+	 <IsEnding>true</IsEnding>
+	  <Mood> HOSTILE</Mood>
+	  <NodeType> OR </NodeType>
+      <Description>Fight with {character2} TO THE DEATH!!!</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent> 	
+    <StoryEvent>
+      <ID>10</ID>
+      <Name>deliver</Name>
+	  <IsEnding>false</IsEnding>
+	  <Mood> NA</Mood>
+	  <NodeType> OR </NodeType>
+      <Description>Deliver {item} to {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent>
+	<StoryEvent>
+      <ID>11</ID>
+      <Name>deliver</Name>
+	  <IsEnding>false</IsEnding>
+	  <Mood> NA</Mood>
+	  <NodeType> OR </NodeType>
+      <Description>Deliver {item} to {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent>
+	<StoryEvent>
+      <ID>12</ID>
+      <Name>deliver</Name>
+	  <IsEnding>false</IsEnding>
+	  <Mood> NA</Mood>
+	  <NodeType> OR </NodeType>
+      <Description>Deliver {item} to {character2}.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>        
+      </Variables>
+    </StoryEvent>
+	<StoryEvent>
+      <ID>13</ID>
+      <Name>talk</Name>
+	  <IsEnding>true</IsEnding>
+	  <Mood> ANXIOUS</Mood>
+	  <NodeType> OR </NodeType>
+      <Description>Reprimand {character2} for his insolence.</Description>
+      <Variables>
+        <Variable>
+          <Name>character1</Name>
+          <Value>player</Value>
+        </Variable>       
+      </Variables>
+    </StoryEvent>
+  </Events>
+  <Links>
+	
+	<Link> 
+		<Source>0</Source>
+		<Target>1</Target>		
+	</Link>
+	<Link> 
+		<Source>0</Source>
+		<Target>2</Target>		
+	</Link>
+	<Link> 
+		<Source>0</Source>
+		<Target>3</Target>		
+	</Link>
+	
+	<Link> 
+		<Source>0</Source>
+		<Target>4</Target>		
+	</Link>
+	<Link> 
+		<Source>0</Source>
+		<Target>5</Target>		
+	</Link>
+	<Link> 
+		<Source>0</Source>
+		<Target>6</Target>		
+	</Link>
+	
+	<Link> 
+		<Source>0</Source>
+		<Target>7</Target>		
+	</Link>
+	<Link> 
+		<Source>1</Source>
+		<Target>8</Target>		
+	</Link>
+	<Link> 
+		<Source>2</Source>
+		<Target>9</Target>		
+	</Link>	
+	
+	<Link> 
+		<Source>3</Source>
+		<Target>9</Target>		
+	</Link>
+	<Link> 
+		<Source>4</Source>
+		<Target>9</Target>		
+	</Link>
+	<Link> 
+		<Source>5</Source>
+		<Target>10</Target>		
+	</Link>
+	<Link> 
+		<Source>6</Source>
+		<Target>11</Target>		
+	</Link>
+	<Link> 
+		<Source>7</Source>
+		<Target>12</Target>		
+	</Link>
+	<Link> 
+		<Source>10</Source>
+		<Target>13</Target>		
+	</Link>
+	<Link> 
+		<Source>11</Source>
+		<Target>13</Target>		
+	</Link>
+	<Link> 
+		<Source>12</Source>
+		<Target>13</Target>		
+	</Link>
+  </Links>
+</Episode>
